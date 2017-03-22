@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>A node js Notepad</title>
+    </head>
+    <body>
+        <h1>Notepad</h1>
+        <form method="POST">
+            <textarea name="text" rows="20" cols="50"></textarea>
+            <br>
+            <button type="submit">Save</button>
+        </form><br>
+        <button><a  style="text-decoration: none; color: black;" href="/download">Download</a></button><br><br>
+
+
+        <form action="/upload" method="POST" enctype="multipart/form-data">
+            <input type="file" name="displayImage">
+            <button type="submit">Upload</button>
+        </form>
+
+
+    </body>
+</html>
